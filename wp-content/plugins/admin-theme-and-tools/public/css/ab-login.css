@@ -1,0 +1,14 @@
+/* AB - Custom Login Styles */
+/* '#2a3db6', '#00ffd5', '#00e6c0', '#313541' modification to gray => #31354108 */
+
+
+body.login { background-color: #0b3b5a; color: #ffcc00;}
+.login #backtoblog a, .login #nav a  {
+    color: #ffcc00;
+}
+.login #backtoblog a:hover, .login #nav a:hover  {
+    color: white;
+}
+body.login div#login form#loginform { border-radius: 10px; color: #0b3b5a;}
+body.login .custom-message { text-align: center; }
+
