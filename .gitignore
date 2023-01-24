@@ -1,0 +1,128 @@
+# NPM #
+##########
+# Ignore all directories called node_modules in current folder and any subfolders.
+node_modules/
+/node_modules/
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.map
+*.wpress
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.env
+
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
+
+# Composer #
+##########
+!assets/js/vendor/
+wpcs/
+/vendor/
+
+# Bower #
+##########
+assets/bower_components/*
+
+# Codekit #
+##########
+/codekit-config.json
+*.codekit
+**.codekit-cache/*
+
+# Compiled Files and Build Dirs #
+##########
+/README.html
+
+# PhpStrom Project Files #
+.idea/
+library/vendors/composer
+assets/img/.DS_Store
+
+# Uploads, Caching and Backup Folders
+wp-content/uploads/
+wp-content/cache/
+wp-content/et-cache/
+wp-content/w3tc-config/
+wp-content/ai1wm-backups/
+wp-content/plugins/all-in-one-wp-migration/storage/
+wp-content/updraft/
+wp-content/mu-plugins/endurance-page-cache.php
+
+## LiteSpeed Specific caching files ##
+wp-content/plugins/litespeed-cache/*
+wp-content/plugins/litespeed-cache/var/*
+wp-content/plugins/litespeed-cache/var/crawlermap.data
+wp-content/plugins/litespeed-cache/var/crawlermap.data.meta
+wp-content/plugins/litespeed-cache/var/crawlermap.data.blacklist
+wp-content/litespeed/cssjs/*
+.lscache_htaccess_bak.zip
+.htaccess_lscachebak_01
+.htaccess_lscachebak_02
+.htaccess_lscachebak_orig
+.htaccess_lscachebak_*
+.litespeed_flag
+.lscache_htaccess_bak.zip
+wp-content/wp-cache-config.php
+
+## WordFence Files and Logs ##
+wp-content/plugins/wordfence/tmp/*
+wp-content/wflogs/
+wp-content/wflogs/**/*
+wp-content/wflogs/config-synced.php
+wp-content/wflogs/config-synced.php
+wp-content/wflogs/config-transient.php
+wp-content/wflogs/config-livewaf.php
+
+# Query Monitor
+wp-content/db.php
+
+# Robots and htaccess
+robots.txt
+.htaccess
+.user.ini
+
+# WORDPRESS FILES #
+
+wp-config.php
+wp-config-local.php
+gitbucket
+error_log
+.DS_Store
+robots.txt
+.htaccess
+!deploy.php
+!test.txt
+!.gitignore
+!.editorconfig
+!gulpfile.js
+!package.json
+!readme.md
